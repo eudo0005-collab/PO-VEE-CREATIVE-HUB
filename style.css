@@ -220,6 +220,12 @@ nav .logo {
     margin-bottom: 25px;
 }
 
+.about-box {
+    border: 2 soild #d4af37;
+    padding: 25px;
+    border-radius: 10px
+}
+
 .about h2 span {
     color: #d4af37;
 }
@@ -595,11 +601,4 @@ footer {
         gap: 15px;
     }
 }
-
-
-
-
-
-
-
 
