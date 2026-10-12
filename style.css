@@ -36,8 +36,11 @@ nav {
 
 nav ul {
     display: flex;
+    align-items: center;
+    gap: 20px;
     list-style: none;
-    gap: 30px;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li a {
@@ -169,8 +172,11 @@ nav .logo {
 }
 
 .primary-button {
+    display: inline-block;
     background-color: #d4af37;
     color: #111;
+    margin-top: 0 auto 25px;
+    position: relative;
 }
 
 .primary-button:hover {
@@ -197,9 +203,16 @@ nav .logo {
 }
 
 .about-content {
-    max-width: 800px;
-    margin: auto;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 60px 20px;
     text-align: center;
+}
+
+.about-content p {
+    max-width: 750px;
+    margin: 0 auto 25px;
+    line-height: 1.8;
 }
 
 .about h2 {
